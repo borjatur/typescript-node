@@ -54,4 +54,4 @@ from the last endpoint in the array should overwrite the previous objects.
 * Assumed that this is asking to overwrite the entire object
 * Assumed that only those objects that contains the key have to be overwritten
 * Merge algorithm O(n) or linear complexity, not concerning while no special performance requirements
-* Promises resolved with **Promise.allSettled** instead of **Promise.resolve**, assumed that might be interesting obtaining a result even when one single http call fails
+* Promises resolved with **Promise.allSettled** instead of **Promise.all**, assumed that might be interesting obtaining a result even when one single http call fails
